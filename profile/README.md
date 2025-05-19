@@ -8,7 +8,7 @@ Ce dépôt présente les principaux outils open source développés par l'associ
 
 ### 🔓 [electriflux](https://github.com/Energie-De-Nantes/electriflux)
 
-> Télé[chargement,](https://github.com/Energie-De-Nantes/electriflux) déchiffrement et transformation des flux Enedis.
+> [Téléchargement, déchiffrement](https://github.com/Energie-De-Nantes/electriflux) et transformation des flux Enedis.
 
 * Télécharge les fichiers via SFTP ou API Enedis.
 * Déchiffre les fichiers à l’aide de certificats.
@@ -19,7 +19,7 @@ Ce dépôt présente les principaux outils open source développés par l'associ
 
 ### 🧠 [electricore](https://github.com/Energie-De-Nantes/electricore)
 
-> Mote[ur métier d](https://github.com/Energie-De-Nantes/electricore)e traitement et de vérification des données énergétiques.
+> [Moteur métier](https://github.com/Energie-De-Nantes/electricore) de traitement et de vérification des données énergétiques.
 
 * Vérification de la cohérence des données (doublons, ruptures, trous).
 * Calculs de consommation par plage tarifaire (HP/HC).
@@ -30,7 +30,7 @@ Ce dépôt présente les principaux outils open source développés par l'associ
 
 ### 🧾 [stationreappropriation](https://github.com/Energie-De-Nantes/stationreappropriation)
 
-> [Interface inter](https://github.com/Energie-De-Nantes/stationreappropriation)active en notebooks **Marimo** (équivalent moderne de Jupyter).
+> [Interface interactive](https://github.com/Energie-De-Nantes/stationreappropriation) en notebooks **Marimo** (équivalent moderne de Jupyter).
 
 * Interface utilisateur pour orchestrer les traitements :
 
