@@ -14,9 +14,9 @@
 
 ## 🎯 Pourquoi ?
 
-Aujourd'hui, **Enedis nous dit quoi facturer** et le **Responsable d'Équilibre nous dit ce qu'on doit payer** — sans qu'on puisse le vérifier. On est **aveugles sur nos propres consommations**. Ces données arrivent chiffrées et opaques, distribuées par un monopole.
+Sans outils, on **subit la boîte noire** : **Enedis nous dit quoi facturer** et le **Responsable d'Équilibre ce qu'on doit payer** — sans qu'on puisse le vérifier. On est **aveugles sur nos propres consommations**, des données chiffrées et opaques distribuées par un monopole.
 
-Nos outils sont **la clé qui ouvre cette boîte noire** : ils déchiffrent, vérifient et recalculent les flux, pour nous donner des **bases solides** pour contrôler, projeter et estimer.
+C'est ce qu'on a entrepris de changer. Nos outils sont **la clé qui ouvre cette boîte noire** : ils déchiffrent, vérifient et recalculent les flux, pour nous donner des **bases solides** pour contrôler, projeter et estimer.
 
 - **🔓 Réappropriation & souveraineté** — déchiffrer et structurer soi-même les flux Enedis. Nos données nous appartiennent.
 - **🧾 Transparence & vérification** — vérifier ce qu'Enedis facture et ce que le Responsable d'Équilibre fait payer, et voir nos consommations pour projeter et estimer.
@@ -45,16 +45,9 @@ Un addon **Odoo** qui **consomme l'API d'electricore** (via le client léger `el
 
 ## 🛠 Comment ça s'assemble
 
-```
-Flux Enedis (chiffrés, opaques)
-        │   SFTP + déchiffrement AES
-        ▼
-   electricore  ──►  ingestion (dlt + dbt → DuckDB)
-        │            vérification · calculs · taxes (TURPE, CTA, Accise)
-        │   API REST — flux JSONL typé
-        ▼
- souscriptions_odoo  ──►  souscriptions · périodes · factures (Odoo)
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Energie-De-Nantes/.github/main/profile/assets/comment-ca-sassemble.png" alt="Du flux Enedis brut à la facture : Flux Enedis chiffrés → (SFTP + déchiffrement AES) → electricore (ingestion dlt+dbt → DuckDB, vérification, calculs, taxes → API REST) → (API REST, flux JSONL typé) → souscriptions_odoo (souscriptions, périodes, factures dans Odoo) → factures justes." width="900">
+</p>
 
 1. **Réappropriation** — electricore télécharge et déchiffre les flux Enedis, puis les transforme en données structurées et vérifiées.
 2. **Calcul** — il calcule consommations, abonnements et taxes : la matière première d'une facture juste.
