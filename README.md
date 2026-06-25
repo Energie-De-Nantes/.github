@@ -7,18 +7,20 @@
 > Tout est publié sous licence **AGPL-3.0** et pensé pour être réutilisé par d'autres collectifs, coopératives et fournisseurs locaux.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Energie-De-Nantes/.github/main/profile/assets/bascule-controle.png" alt="La bascule du contrôle — les outils libres d'Énergie De Nantes font basculer le contrôle des données du réseau, du monopole et sa boîte noire vers le collectif qui maîtrise ses données : electricore (le moteur) et souscriptions_odoo (l'addon de facturation) sont le levier." width="900">
+  <img src="https://raw.githubusercontent.com/Energie-De-Nantes/.github/main/profile/assets/bascule-controle.png" alt="Reprendre le contrôle de nos données — les outils libres d'Énergie De Nantes sont la clé qui ouvre la boîte noire du monopole. À gauche, la boîte noire : Enedis dit quoi facturer, le Responsable d'Équilibre dit quoi payer, impossible de vérifier, aveugles sur nos consos. Au centre, la clé : electricore (le moteur) et souscriptions_odoo (l'addon de facturation). À droite, le collectif maîtrise : vérifier ce qu'on facture et ce qu'on paie, voir nos consos, projeter, estimer." width="900">
 </p>
 
 ---
 
 ## 🎯 Pourquoi ?
 
-Les données qui décrivent ta consommation et fondent ta facture sont distribuées par un monopole, sous une forme **chiffrée et opaque**. Nos outils font levier pour faire **basculer ce contrôle vers le collectif** :
+Aujourd'hui, **Enedis nous dit quoi facturer** et le **Responsable d'Équilibre nous dit ce qu'on doit payer** — sans qu'on puisse le vérifier. On est **aveugles sur nos propres consommations**. Ces données arrivent chiffrées et opaques, distribuées par un monopole.
 
-- **🔓 Réappropriation & souveraineté** — déchiffrer et structurer soi-même les flux Enedis. Tes données t'appartiennent.
+Nos outils sont **la clé qui ouvre cette boîte noire** : ils déchiffrent, vérifient et recalculent les flux, pour nous donner des **bases solides** pour contrôler, projeter et estimer.
+
+- **🔓 Réappropriation & souveraineté** — déchiffrer et structurer soi-même les flux Enedis. Nos données nous appartiennent.
+- **🧾 Transparence & vérification** — vérifier ce qu'Enedis facture et ce que le Responsable d'Équilibre fait payer, et voir nos consommations pour projeter et estimer.
 - **♻️ Libre & réutilisable** — open source (AGPL-3.0), réutilisable par d'autres collectifs, coopératives et fournisseurs locaux.
-- **🧾 Transparence de la facturation** — une facturation juste, traçable et maîtrisée de bout en bout : tu sais d'où vient chaque euro.
 - **🛠️ Maîtrise technique** — une stack moderne (Polars, DuckDB, dbt, FastAPI), testée et documentée, sans boîte noire.
 
 ---
